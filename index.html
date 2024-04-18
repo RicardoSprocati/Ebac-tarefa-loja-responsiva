@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Shoes Store</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Shoes Store</h1>
+            <div class="menuHamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav >
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#sobre">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#produtos">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="principal">
+        <section id="sobre">
+            <a>
+                <img src="./imagens/fachada.jpg" alt="interior da loja">
+            </a>
+            <div class="sobreLoja">
+                <div>
+                    <h2>Sobre a loja</h2>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <p>Seus sapatos são cuidadosamente selecionados para atender aos gostos exigentes dos clientes. Cada par é uma declaração de elegância e conforto, tornando a loja um destino imperdível para os amantes de calçados.</p>
+                        </li>
+                        <li>
+                            <p>Localizada em uma charmosa rua de paralelepípedos, a loja proporciona uma experiência de compra luxuosa. Seus interiores são decorados com bom gosto, refletindo a sofisticação dos produtos que oferece.</p>
+                        </li>
+                        <li>
+                            <p>Além de sua coleção exclusiva, a loja de calçados oferece serviços de personalização e ajuste, garantindo que cada cliente saia com sapatos que se ajustam perfeitamente e refletem sua personalidade.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="produtos">
+            <div>
+                <h2>Produtos</h2>
+            </div>
+            <div class="listaProdutos">
+                <article>
+                    <a>
+                        <img src="./imagens/adidas.jpg" alt="tenis adidas">
+                    </a>
+                    <div>
+                        <h3>Tênis Adidas</h3>
+                    </div>
+                    <div>
+                        <p>
+                            Modelo novo Adidas, diponivel nos tamanhos: 37,38,39,40 e 42
+                        </p>
+                    </div>
+                    <button type="button">Adicionar ao Carrinho</button>
+                </article>
+                <article>
+                    <a>
+                        <img src="./imagens/fila2.webp" alt="tenis fila">
+                    </a>
+                    <div>
+                        <h3>Tênis Fila</h3>
+                    </div>
+                    <div>
+                        <p>
+                            Modelo novo Fila, diponivel nos tamanhos: 37,38,39,40 e 42
+                        </p>
+                    </div>
+                    <button type="button">Adicionar ao Carrinho</button>
+                </article>
+                <article>
+                    <a>
+                        <img src="./imagens/nike2.jpg" alt="tenis nike">
+                    </a>
+                    <div>
+                        <h3>Tênis Nike</h3>
+                    </div>
+                    <div>
+                        <p>
+                            Modelo novo Nike, diponivel nos tamanhos: 37,38,39,40 e 42
+                        </p>
+                    </div>
+                    <button type="button">Adicionar ao Carrinho</button>
+                </article>
+                <article>
+                    <a>
+                        <img src="./imagens/Polo.jpg" alt="tenis polo">
+                    </a>
+                    <div>
+                        <h3>Tênis Polo</h3>
+                    </div>
+                    <div>
+                        <p>
+                            Modelo novo Polo, diponivel nos tamanhos: 37,38,39,40 e 42
+                        </p>
+                    </div>
+                    <button type="button">Adicionar ao Carrinho</button>
+                </article>
+            </div>    
+        </section>
+        <section id="contato">
+            <div>
+                <h2>Entre em contato</h2>
+            </div>
+            <form>
+                <div class="form-campo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+                <div class="form-campo">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone">
+                </div>
+                <div class="form-campo">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-campo">
+                    <label for="tenis">Tênis de interesse:</label>
+                    <input type="text" id="tenis" name="tenis">
+                </div>
+                <div class="form-campo">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" cols="30" rows="10" name="mensagem"></textarea>
+                </div>
+                <div class="form-campo">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p>2024 &copy; Shoes Store- Todos direitos reservados</p>
+        </div>
+        <ul class="logos">
+            <li>
+                <a >
+                    <img src="./imagens/facebook.png" alt="facebook">
+                    <img src="./imagens/instagram.png" alt="instagram">
+                    <img src="./imagens/youtube.png" alt="youtube">
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="./main.js"></script>
+</body>
+</html>
